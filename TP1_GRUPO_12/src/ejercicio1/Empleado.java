@@ -3,7 +3,7 @@ import java.time.LocalDate;
 
 public class Empleado extends Persona {
 	
-	private int legajo;
+	private final int legajo;
 	private String puesto;
 	private static int cont = 999;
 	
