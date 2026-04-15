@@ -11,6 +11,4 @@ public class ExVerificarDNI extends RuntimeException{
 	public String getMessage() {
 		return "El dni debe contener 8 numeros";
 	}
-	
-	
 }

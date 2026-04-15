@@ -14,6 +14,23 @@ public class Persona {
 	
 	//
 	
+	public static boolean exVerificarDNI (String dni)
+	{
+		boolean auxDni = false;
+		if (dni.length() < 10000000 || dni.length() > 99999999)
+		{
+			auxDni = true;
+		}
+		if (auxDni == true)
+		{
+			ExVerificarDNI exc1 = new ExVerificarDNI();
+			throw exc1;	
+		}
+		return false;
+	}
+	
+	//
+	
 	public Persona ()
 	{
 		this.nombre = "sin nombre";
