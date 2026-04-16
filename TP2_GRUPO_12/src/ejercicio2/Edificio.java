@@ -1,7 +1,23 @@
 package ejercicio2;
 
-public interface Edificio {
+public abstract class Edificio {
 
-	public double getSuperficieEdificio();
+	private double superficie;
+	
+	public Edificio(){
+		
+	}
+	
+	public Edificio(double s) {
+		superficie=s;
+	}
+
+	public double getSuperficieEdificio() {
+		return superficie;
+	}
+
+	public void setSuperficie(double superficie) {
+		this.superficie = superficie;
+	}
 	
 }
