@@ -13,12 +13,16 @@ public class EdificioDeOficinas extends Edificio {
 		this.NumeroDeOficinas=NumeroDeOficinas;
 	}
 
+
 	public int getNumeroDeOficinas() {
 		return NumeroDeOficinas;
 	}
 
 	public void setNumeroDeOficinas(int numeroDeOficinas) {
 		NumeroDeOficinas = numeroDeOficinas;
+	}
+	public String toString() {
+		return "Numero de oficinas " + NumeroDeOficinas + ", superficie del edificio " + getSuperficieEdificio();
 	}
 	
 	
