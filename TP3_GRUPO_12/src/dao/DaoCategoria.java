@@ -22,7 +22,7 @@ public class DaoCategoria {
 		int filas = 0;
 	
 		try
-		{
+		{ 
 			cn = DriverManager.getConnection(host+dbName, user, pass);
 		 	Statement st = cn.createStatement();
 		 	filas = st.executeUpdate(query);
