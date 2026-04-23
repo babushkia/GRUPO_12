@@ -82,7 +82,7 @@ public class DaoCategoria {
          }
         return LCategorias;
     }
-	
+
 	public int modificarCategoria(Categoria categoria) 
     {
         String query = "UPDATE categorias SET Nombre =? where id=?";

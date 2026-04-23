@@ -25,7 +25,7 @@ public class Principal {
 //			System.out.println("Categoria no agregada");
 //		}
 //	}
-	
+
 //ALTA PRODUCTOS
 		
 //		Producto pro1 = new Producto();
