@@ -43,13 +43,13 @@ public class Principal {
 		
 //ALTA PRODUCTOS CON PROCEDIMIENTO ALMACENADO
 		
-		Producto pro2 = new Producto();
-		pro2.setCodigo("A1");
-		pro2.setNombre("Celular");
-		pro2.setPrecio(999999.99);
-		pro2.setStock(100);
+//		Producto pro2 = new Producto();
+//		pro2.setCodigo("A1");
+//		pro2.setNombre("Celular");
+//		pro2.setPrecio(999999.99);
+//		pro2.setStock(100);
 		//me falta setear la categoria me dejo de funcionar la cabeza x2
-		
-		daoPro.procedimientoAlmacenadoAltaProducto(pro2);
+//		
+//		daoPro.procedimientoAlmacenadoAltaProducto(pro2);
 	}
 }
