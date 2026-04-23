@@ -20,7 +20,7 @@ public class DaoCategoria {
 		String query = "Insert into categorias(Nombre) values ('" + categoria.getNombre() + "')";
 		Connection cn = null;
 		int filas = 0;
-		
+	
 		try
 		{
 			cn = DriverManager.getConnection(host+dbName, user, pass);

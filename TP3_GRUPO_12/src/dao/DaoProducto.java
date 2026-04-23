@@ -20,7 +20,7 @@ public class DaoProducto {
 		String query = "Insert into productos(Codigo, Nombre, Precio, Stock) values ('" + producto.getCodigo() + "','" + producto.getNombre() + "','" + producto.getPrecio() + "','" + producto.getStock() + "','" + producto.getCategoria().getId() + "')";
 		Connection cn = null;
 		int filas = 0;
-		
+	
 		try
 		{
 			cn = DriverManager.getConnection(host+dbName, user, pass);
