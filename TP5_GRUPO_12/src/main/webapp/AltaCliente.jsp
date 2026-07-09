@@ -24,7 +24,8 @@
 		<section class="contenido">
 			<h1>Formulario de Cliente</h1>
 			<fieldset>
-				<form action="">
+				<form action="ServletAltaCliente" method=get>
+					<input type="hidden" name=accion value= "agregar">
 					<div class="columnas">
 						<div class="campo"></div>
 						<div class="campo"></div>
@@ -34,12 +35,12 @@
 						<div class="campo"></div>
 
 						<div class="campo">
-							<label>DNI</label> <input type="text" maxlength="8" name="dni"
+							<label>DNI</label> <input type="number" maxlength="8" name="dni"
 								required> <small>Solo números 6 a 8 dígitos (ej:
 								12345678).</small>
 						</div>
 						<div class="campo">
-							<label>CUIL</label> <input type="text" maxlength="11" name="cuil"
+							<label>CUIL</label> <input type="number" maxlength="11" name="cuil"
 								required> <small>Formato: 11 dígitos (ej:
 								20333444555)</small>
 						</div>
@@ -81,7 +82,7 @@
 								nombre@dominio.com</small>
 						</div>
 						<div class="campo">
-							<label>Teléfono</label> <input type="tel" name="tel">
+							<label>Teléfono</label> <input type="number" maxlength="10" name="tel">
 						</div>
 						<div class="boton-container">
 							<input type="submit" name="btnGuardar" value="Guardar cliente">
